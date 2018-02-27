@@ -1,0 +1,24 @@
+# Generated files
+target/
+gensrc/
+classes/
+testclasses/
+hmc.xsd
+items.xsd
+beans.xsd
+build.xml
+*-testclasses.xml
+*-webtestclasses.xml
+extensioninfo.xsd
+platformhome.properties
+corejet-cached-requirements.xml
+hybris-custom/custom/merciacheckoutaddon/ruleset.xml
+merciabackoffice_bof.jar
+*.class
+Generated*.java
+hybriscert/hybriscertcore/gensrc
+hybriscert/hybriscertcockpits/gensrc
+hybriscert/hybriscertfacades/gensrc
+hybriscert/hybriscertfulfilmentprocess/gensrc
+hybriscert/hybriscertinitialdata/gensrc
+hybriscert/hybriscerttest/gensrc/
