@@ -112,5 +112,18 @@
             </itemtype>
         </typegroup>
 
+        <typegroup name="CMSComponents">
+            <itemtype code="HybrisCertParagraphComponent" extends="CMSParagraphComponent" autocreate="true" generate="true"
+            jaloclass="hybris.cert.core.jalo.HybrisCertParagraphComponent">
+                <!--JaloClass is needed here, otherwise the component will be of type abstract-->
+                <description>My first paragraph component.</description>
+                <attributes>
+                    <attribute qualifier="textAttribute" type="java.lang.String">
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
+            </itemtype>
+        </typegroup>
+
     </itemtypes>
 </items>
